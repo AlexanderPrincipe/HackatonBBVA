@@ -21,10 +21,15 @@ public class User {
    @JsonIgnore
    @Id
    @Column(name = "ID")
-   @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "USER_SEQ")
-   @SequenceGenerator(name = "USER_SEQ", sequenceName = "USER_SEQ", allocationSize = 1)
+   @GeneratedValue(strategy= GenerationType.SEQUENCE)
    private Long id;
 
+   @Column(name = "DNI", length = 50, unique = true)
+   @NotNull
+   @Size(min = 4, max = 50)
+   private String dni;
+
+   @JsonIgnore
    @Column(name = "USERNAME", length = 50, unique = true)
    @NotNull
    @Size(min = 4, max = 50)
@@ -50,6 +55,31 @@ public class User {
    @NotNull
    @Size(min = 4, max = 50)
    private String email;
+
+   @Column(name = "AGE", length = 10)
+   @NotNull
+   @Size(min = 4, max = 100)
+   private Integer age;
+
+   @Column(name = "PHONE", length = 10)
+   @NotNull
+   @Size(min = 4, max = 100)
+   private Integer phone;
+
+   @Column(name = "GENDER", length = 10)
+   @NotNull
+   @Size(min = 4, max = 10)
+   private String gender;
+
+   @Column(name = "PROFILE", length = 200)
+   @NotNull
+   @Size(min = 4, max = 200)
+   private String profile;
+
+   @JsonIgnore
+   @Column(name = "TOKEN_ACCESS")
+   @NotNull
+   private String token_access;
 
    @JsonIgnore
    @Column(name = "ACTIVATED")
