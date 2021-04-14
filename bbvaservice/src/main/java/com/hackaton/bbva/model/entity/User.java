@@ -21,7 +21,7 @@ public class User {
    @JsonIgnore
    @Id
    @Column(name = "ID")
-   @GeneratedValue(strategy= GenerationType.SEQUENCE)
+   @GeneratedValue(strategy=GenerationType.AUTO)
    private Long id;
 
    @Column(name = "DNI", length = 50, unique = true)
