@@ -17,7 +17,6 @@ public class Interests implements Serializable {
     @GeneratedValue(strategy= GenerationType.SEQUENCE)
     private Long id;
 
-    @Id
     @Column(name = "NAME", length = 50)
     @NotNull
     private String name;
