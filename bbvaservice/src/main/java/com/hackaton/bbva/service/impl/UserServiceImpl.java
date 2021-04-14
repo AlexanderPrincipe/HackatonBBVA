@@ -1,5 +1,6 @@
 package com.hackaton.bbva.service.impl;
 
+import com.hackaton.bbva.model.request.UserRq;
 import com.hackaton.bbva.repository.UserRepository;
 import com.hackaton.bbva.security.SecurityUtils;
 import com.hackaton.bbva.model.entity.User;
@@ -22,5 +23,11 @@ public class UserServiceImpl implements UserService {
     @Transactional(readOnly = true)
     public Optional<User> getUserWithAuthorities() {
         return SecurityUtils.getCurrentUsername().flatMap(userRepository::findOneWithAuthoritiesByUsername);
+    }
+
+    @Override
+    public User saveUser(UserRq userRq) {
+        
+        return userRepository.save(userRq.getUser());
     }
 }

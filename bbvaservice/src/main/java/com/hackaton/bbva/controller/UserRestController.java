@@ -1,12 +1,10 @@
 package com.hackaton.bbva.controller;
 
 import com.hackaton.bbva.model.entity.User;
+import com.hackaton.bbva.model.request.UserRq;
 import com.hackaton.bbva.service.UserService;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @CrossOrigin(origins="*",maxAge = 3600)
 @RestController
@@ -22,5 +20,10 @@ public class UserRestController {
     @GetMapping
     public ResponseEntity<User> getActualUser() {
         return ResponseEntity.ok(userService.getUserWithAuthorities().get());
+    }
+
+    @PostMapping
+    public ResponseEntity<User> saveUser(@RequestBody UserRq userRq) {
+        return ResponseEntity.ok(userService.saveUser(userRq));
     }
 }
