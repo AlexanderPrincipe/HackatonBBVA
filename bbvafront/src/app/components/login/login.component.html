@@ -1,0 +1,9 @@
+<div>
+  <button (click)="onLoginFacebook()">Login</button>
+  <div *ngIf="user">
+    Loggeado con el email {{ user | json }}
+  </div>
+  <button (click)="logout">
+    Logout
+  </button>
+</div>  
