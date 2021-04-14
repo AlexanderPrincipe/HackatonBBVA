@@ -20,19 +20,19 @@ public class UserInterests implements Serializable {
     @GeneratedValue(strategy= GenerationType.SEQUENCE)
     private Long id;
 
-    @OneToMany
-    @JoinTable(
-            name = "SEG_USER",
-            joinColumns = {@JoinColumn(name = "ID", referencedColumnName = "ID_USER")})
-    @BatchSize(size = 20)
-    private User user;
-
-    @OneToMany
-    @JoinTable(
-            name = "SEG_INTERESTS",
-            joinColumns = {@JoinColumn(name = "ID", referencedColumnName = "ID_INTERESTS")})
-    @BatchSize(size = 20)
-    private Interests interests;
+//    @OneToMany
+//    @JoinTable(
+//            name = "SEG_USER",
+//            joinColumns = {@JoinColumn(name = "ID", referencedColumnName = "ID_USER")})
+//    @BatchSize(size = 20)
+//    private User user;
+//
+//    @OneToMany
+//    @JoinTable(
+//            name = "SEG_INTERESTS",
+//            joinColumns = {@JoinColumn(name = "ID", referencedColumnName = "ID_INTERESTS")})
+//    @BatchSize(size = 20)
+//    private Interests interests;
 
     @Column(name = "IS_CLIENT", length = 1)
     @NotNull
