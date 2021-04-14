@@ -1,0 +1,14 @@
+[
+  {
+    "titulo": "Fallecidos (MINSA)",
+    "valor": 8940000
+  },
+  {
+    "titulo": "Fallecidos (DIRESA)",
+    "valor": 5000000
+  },
+  {
+    "titulo": "Subregistro Fallecidos (SINADEF)",
+    "valor": 7200000
+  }
+]

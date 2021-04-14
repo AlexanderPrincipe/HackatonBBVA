@@ -1,0 +1,92 @@
+[{
+  "image": "https://storage.googleapis.com/opencovid-peru-media/report_files/cover_images/OXYGEN-1024x680.jpg.508x225_q85_box-0,7,1024,461_crop_detail.jpg",
+  "categoria": "Covid",
+  "titulo": "Oxígeno",
+  "contenido": "Reporte de Oxígeno abastecido en cada establecimiento de salud comparado con el volumen consumido",
+  "autor": "IPRESS",
+  "actualizado": "Lunes 01 de Marzo de 2021"
+},{
+  "image": "https://storage.googleapis.com/opencovid-peru-media/report_files/cover_images/cover_photoopen2.png.508x225_q85_box-413,585,1936,1259_crop_detail.png",
+  "categoria": "Covid",
+  "titulo": "Análisis Nacional MINSA Perú",
+  "contenido": "Resumen de la pandemia de acuerdo a los datos oficiales del Ministerio de Salud de Perú (MINSA) a nivel Nacional.",
+  "autor": "MINSA",
+  "actualizado": "Lunes 01 de Marzo de 2021"
+},{
+  "image": "https://storage.googleapis.com/opencovid-peru-media/report_files/cover_images/2021-01-08_PIU.png.508x225_q85_box-0,484,1447,1125_crop_detail.png",
+  "categoria": "Covid",
+  "titulo": "Rt - Número de Reproducción",
+  "contenido": "El Rt es el numero efectivo de reproducción, el promedio de personas que un infectado contagia",
+  "autor": "Kevin Systrom",
+  "actualizado": "Lunes 01 de Marzo de 2021"
+},{
+  "image": "https://storage.googleapis.com/opencovid-peru-media/report_files/cover_images/fotominsacovid.png.508x225_q85_box-723,261,1977,817_crop_detail.png",
+  "categoria": "Covid",
+  "titulo": "Semáforo Epidemiológico Región",
+  "contenido": "Resumen de la pandemia de acuerdo a los datos oficiales del Ministerio de Salud de Perú (MINSA) a nivel Regional",
+  "autor": "MINSA",
+  "actualizado": "Lunes 01 de Marzo de 2021"
+},{
+  "image": "https://storage.googleapis.com/opencovid-peru-media/report_files/cover_images/Screen_Shot_2021-01-22_at_8.49.44_PM.png.508x225_q85_box-0,161,2106,1093_crop_detail.png",
+  "categoria": "Covid",
+  "titulo": "Mapa Semáforo Epidemiológico",
+  "contenido": "Mapa distrital con la incidencia de todos los nuevos casos confirmados reportados por MINSA en los últimos 7 días",
+  "autor": "MINSA",
+  "actualizado": "Lunes 01 de Marzo de 2021"
+},{
+  "image": "https://storage.googleapis.com/opencovid-peru-media/report_files/cover_images/Asi-estan-trabajando-las-UCI-en-el-centro-de-la-tormenta-de-la-COVID-1.jpg.508x225_q85_box-0,88,1076,564_crop_detail.jpg",
+  "categoria": "Covid",
+  "titulo": "Capacidad Hospitalaria",
+  "contenido": "Análisis Nacional y Regional de los indicadores hospitalizados, camas UCI, entre otros.",
+  "autor": "Open-covid",
+  "actualizado": "Lunes 01 de Marzo de 2021"
+},{
+  "image": "https://storage.googleapis.com/opencovid-peru-media/report_files/cover_images/1599226378807.jpg.508x225_q85_box-7,72,969,499_crop_detail.jpg",
+  "categoria": "Covid",
+  "titulo": "Pruebas y positividad",
+  "contenido": "Análisis de las pruebas PCR y Rápidas, así como su positividad a nivel nacional y regional",
+  "autor": "Open-covid",
+  "actualizado": "Lunes 01 de Marzo de 2021"
+},{
+  "image": "https://storage.googleapis.com/opencovid-peru-media/report_files/cover_images/PERU_28.png.508x225_q85_box-92,141,410,281_crop_detail.png",
+  "categoria": "Covid",
+  "titulo": "SINADEF",
+  "contenido": "Defunciones registradas por el Sistema Nacional de Defunciones a nivel nacional y regional",
+  "autor": "Open-covid",
+  "actualizado": "Lunes 01 de Marzo de 2021"
+},{
+  "image": "https://storage.googleapis.com/opencovid-peru-media/report_files/cover_images/Screen_Shot_2021-01-18_at_4.09.01_PM.png.508x225_q85_box-0,120,1028,578_crop_detail.png",
+  "categoria": "Covid",
+  "titulo": "Movilidad",
+  "contenido": "Rastreo de móviles vía Google Mobility muestran cambios en nuestra movilidad a causa de restricciones de la pandemia",
+  "autor": "Open-covid",
+  "actualizado": "Lunes 01 de Marzo de 2021"
+},{
+  "image": "https://storage.googleapis.com/opencovid-peru-media/report_files/cover_images/LEN_5968_L_ICU.jpg.508x225_q85_box-41,72,305,189_crop_detail.jpg",
+  "categoria": "Covid",
+  "titulo": "UCI Disponible",
+  "contenido": "Lista de los Centros de Salud con camas UCI disponibles y reportadas por la Superintendencia Nacional de Salud",
+  "autor": "SUSALUD",
+  "actualizado": "Lunes 01 de Marzo de 2021"
+},{
+  "image": "https://storage.googleapis.com/opencovid-peru-media/report_files/cover_images/standard_centro_de_atencion.jpg.jpeg.508x225_q85_box-45,95,645,362_crop_detail.jpg",
+  "categoria": "Covid",
+  "titulo": "Camas COVID Disponible",
+  "contenido": "Disponibilidad de camas COVID (no UCI) para hospitalización y reportadas por la Superintendencia Nacional de Salud",
+  "autor": "SUSALUD",
+  "actualizado": "Lunes 01 de Marzo de 2021"
+},{
+  "image": "https://storage.googleapis.com/opencovid-peru-media/report_files/cover_images/HU%C3%81NUCO.png.508x225_q85_box-0114455316_crop_detail.png.508x225_q85_box-0,0,455,202_crop_detail.png",
+  "categoria": "Covid",
+  "titulo": "Desfase: MINSA, DIRESA y DIRIS",
+  "contenido": "Discrepancias en cifras reportadas por MINSA con lo reportado por DIRIS Lima y regiones (DIRESA / GERESA)",
+  "autor": "MINSA",
+  "actualizado": "Lunes 01 de Marzo de 2021"
+},{
+  "image": "https://storage.googleapis.com/opencovid-peru-media/report_files/cover_images/Captura_de_pantalla_2020-10-23_013949.png.508x225_q85_box-0,57,1241,605_crop_detail.png",
+  "categoria": "Covid",
+  "titulo": "Reporte Diario MINSA",
+  "contenido": "Aquí puedes acceder el reporte diario del CDC MINSA que se resume en de su sala situacional",
+  "autor": "MINSA",
+  "actualizado": "Lunes 01 de Marzo de 2021"
+}]
