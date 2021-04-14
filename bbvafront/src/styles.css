@@ -2,3 +2,17 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.bbva-bg-color-primary{
+  background-color: #072146;
+}
+.bbva-bg-color-secondary{
+  background-color: #f4f4f4;
+}
+.bbva-text-color-primary {
+  color: #ffffff;
+}
+.bbva-text-color-secondary{
+  color: #121212;
+}
+
